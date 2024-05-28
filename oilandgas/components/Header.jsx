@@ -6,28 +6,28 @@ import Image from 'next/image'
 function Header() {
   return (
     <div className='text-white relative mx-5'>
-      <nav className='flex absolute top-0 items-center justify-between w-full h-20'>
+      <nav className='flex absolute top-5 items-center justify-between w-full h-20'>
         <Link href={'/'}>
           <Image src={Logo} alt='Company Logo' width={80} height={80}/>
         </Link>
 
-        <ul className='flex items-center justify-evenly gap-20'>
+        <ul className='flex items-center justify-evenly gap-10'>
           <li>
-            <Link href={`#`}>Home</Link>
+            <Link href={`/`}>Home</Link>
           </li>
 
           <li>
-            <Link href={`#`}>Our Company</Link>
+            <Link href={`/about`}>Our Company</Link>
           </li>
 
           <li>
-            <Link href={`#`}>Projects</Link>
+            <Link href={`/projects`}>Projects</Link>
           </li>
           <li>
-            <Link href={`#`}>Services</Link>
+            <Link href={`/services`}>Services</Link>
           </li>
           <li>
-            <Link href={`#`}>Contact Us</Link>
+            <Link href={`/contact`}>Contact Us</Link>
           </li>
         </ul>
       </nav>
