@@ -38,7 +38,7 @@ function ServicesOverview() {
 ]
   return (
     <div>
-        <div className='text-2xl my-20 mx-10'>
+        <div className='text-lg md:text-2xl my-20 mx-4 md:mx-10'>
           <h1>At PetroGlobal Energy Solutions, we are committed to delivering superior oil and gas services that cater to the full spectrum of industry needs. With decades of expertise and a commitment to safety, sustainability, and innovation, we provide a range of specialized services designed to enhance efficiency and maximize the performance of energy projects worldwide. </h1>
 
           <p className='my-10'>Our solutions span from strategic oil and gas shipping to essential valve supply, comprehensive well services, and meticulous pipeline construction. Each service we offer is backed by our dedicated team of experts who ensure that your specific requirements are met with the highest standards of excellence and reliability.</p>
@@ -46,14 +46,13 @@ function ServicesOverview() {
           <p>Discover how our tailored services can support your operations and contribute to your project's success:</p>
       </div>
 
-      <div className='mt-20 mx-10'>
-
+      <div className='mt-20 mx-10 mb-10'>
         {ServiceData.map((data) => (
-          <div key={data.id} className={`flex mb-20  ${data.flip?"flex-row-reverse ":""}  items-center gap-20`}>
+          <div key={data.id} className={`flex mb-10 md:mb-20 flex-col md:flex-row items-start  ${data.flip?"md:flex-row-reverse ":""}  items-center gap-20`}>
           <Image src={data.image} alt='Ship Image' width={400} height={300}/>
           <div>
-            <h2 className='font-bold text-3xl mb-5'>{data.title}</h2>
-            <p className='text-lg'>{data.description}</p>
+            <h2 className='font-bold text-3xl xl:text-4xl mb-5'>{data.title}</h2>
+            <p className='text-lg md:text-xl xl:text-2xl'>{data.description}</p>
           </div>
         </div>
 
