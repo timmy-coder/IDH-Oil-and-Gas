@@ -7,11 +7,12 @@ import Banner from '../public/landingBanner.webp'
 
 export default function Home() {
   return (
-    <main className="">
+    <>
+      <Header/>
      <PageBanner image={Banner}/>
       <DirectorSection/>
       <ServiceTabs/>
       <LatestProject/>
-    </main>
+    </>
   );
 }

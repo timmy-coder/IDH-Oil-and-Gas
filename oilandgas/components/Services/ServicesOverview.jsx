@@ -43,7 +43,7 @@ function ServicesOverview() {
 
           <p className='my-10'>Our solutions span from strategic oil and gas shipping to essential valve supply, comprehensive well services, and meticulous pipeline construction. Each service we offer is backed by our dedicated team of experts who ensure that your specific requirements are met with the highest standards of excellence and reliability.</p>
 
-          <p>Discover how our tailored services can support your operations and contribute to your project's success:</p>
+          <p>Discover how our tailored services can support your operations and contribute to your project&apos;s success:</p>
       </div>
 
       <div className='mt-20 mx-10 mb-10'>

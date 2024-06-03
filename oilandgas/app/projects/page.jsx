@@ -13,6 +13,7 @@ import project9 from '../../public/project9.webp'
 import project10 from '../../public/project10.webp'
 import project11 from '../../public/project11.webp'
 import ProjectsTabs from '@/components/ProjectsTabs'
+import Header from '@/components/Header'
 
 
 function Project() {
@@ -65,6 +66,7 @@ function Project() {
   ]
   return (
     <div className=''>
+      <Header/>
       <PageBanner image={Banner} title={'Latests Projects'}/>
 
       <div className='my-40'>

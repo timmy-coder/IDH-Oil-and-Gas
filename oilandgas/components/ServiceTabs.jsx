@@ -8,10 +8,10 @@ import Link from 'next/link'
 function ServiceTabs() {
   return (
     <div className='mb-20'>
-        <div className='font-bold text-black flex mb-10 items-center justify-center gap-10'>
-            <div className='border border-[#F40F0F] w-60'/>
-            <h4 className=' text-lg text-[#091829] md:text-4xl'>Our Services</h4>
-            <div className='border border-[#F40F0F] w-60'/>
+        <div className='font-bold text-black flex mb-10 items-center justify-center gap-5 md:gap-10'>
+            <div className='border border-[#F40F0F] w-40 md:w-60'/>
+            <h4 className=' text-lg text-[#091829] whitespace-nowrap md:text-4xl'>Our Services</h4>
+            <div className='border border-[#F40F0F] w-40 md:w-60'/>
         </div>
 
         <div>
