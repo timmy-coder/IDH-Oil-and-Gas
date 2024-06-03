@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Header/>
-     <PageBanner image={Banner}/>
+     <PageBanner image={Banner} />
       <DirectorSection/>
       <ServiceTabs/>
       <LatestProject/>

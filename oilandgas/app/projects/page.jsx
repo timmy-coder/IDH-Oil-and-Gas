@@ -16,6 +16,11 @@ import ProjectsTabs from '@/components/ProjectsTabs'
 import Header from '@/components/Header'
 
 
+export const metadata = {
+  title: "PetroGlobal Energy | Projects ",
+  description: "Solutions quickly became a pioneer in sustainable oil and gas practices",
+};
+
 function Project() {
 
   const LastesImage = [

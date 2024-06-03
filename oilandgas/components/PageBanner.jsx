@@ -3,7 +3,7 @@ import Header from './Header'
 
 import Image from 'next/image'
 
-function PageBanner({image, title}) {
+function PageBanner({image, title,}) {
   return (
     <div className='mb-20 relative -mt-24 md:-mt-20 -mx-5  md:-mx-10'>
          <div className=''>
