@@ -10,7 +10,7 @@ function ContactForm() {
                 <div className='border border-[#F40F0F] w-20 md:w-60'/>
             </div>
             
-            <p>Have questions or need assistance? We&apos; re here to help. Reach out using the form below.</p>
+            <p>Have questions or need assistance? We are here to help. Reach out using the form below.</p>
         </div>
 
         <form action="" className='max-w-lg flex flex-col items-center  gap-5 mx-auto'>
