@@ -26,7 +26,6 @@ function ContactOverview() {
                 <h2 className='font-bold text-lg'>Email-Address</h2>
                 <div className='mt-10'>
                     <p>operations@company.com</p>
-                    <p>operations@company.com</p>
                 </div>
                
             </div>
@@ -34,7 +33,7 @@ function ContactOverview() {
                 <Image src={Location} alt='Location' className='object-contain -mt-14' width={100} height={100}/>
                 <h2 className='font-bold text-lg'>Address</h2>
                 <div className='mt-10'>
-                    <p className='max-w-[200px] mx-auto'>Plot 2, Mesi-ogo layout, Sawmill, Moniya, Ibadan</p>
+                    <p className='max-w-[200px] mx-auto'>364 Herbert Marcualy Way, Yaba, Lagos, Nigeria</p>
                     
                 </div>
                

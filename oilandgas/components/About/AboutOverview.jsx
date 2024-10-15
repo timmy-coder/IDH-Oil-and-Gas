@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Overivew from '../../public/overviewImage.webp'
+import Overivew from '../../public/logo2.webp'
 
 function AboutOverview() {
   return (
@@ -17,10 +17,12 @@ function AboutOverview() {
             <Image priority={true} src={Overivew} alt='About Image' className='object-fill'/>
             
         </div>
-        <div  className='bg-[#44749F] text-white py-5 px-5 rounded-md text-lg w-[350px] lg:w-[600px] h-[360px] lg:text-[23px]'>
-            <p> Founded in 1982 in Texas, PetroGlobal Energy Solutions quickly became a pioneer in sustainable oil and gas practices. By integrating advanced technologies and environmental initiatives early on, we expanded globally, embracing efficient extraction methods and renewable energy. </p>
+        <div  className='bg-[#44749F] text-white py-5 px-5 rounded-md text-lg w-[350px] lg:w-[600px]  lg:text-[23px]'>
+            <p> At POBG, we leverage cutting-edge technology and industry expertise to deliver energy solutions that power businesses, industries, and households. Our strategic location in Lagos positions us at the heart of Nigeria&apos;s oil and gas industry, allowing us to serve a diverse range of clients while contributing to the nation&apos;s economic development.</p>
 
-            <p className='mt-4'>Today, PetroGlobal is a leader in the international energy sector, committed to providing innovative and sustainable energy solutions worldwide</p>
+            <p className="mt-2">Our vision is to lead the transformation of Nigeria&apos;s energy sector by fostering innovation, supporting sustainable practices, and creating value for our stakeholders. We prioritize community development, environmental responsibility, and customer satisfaction in all our operations.</p>
+
+    <p className="mt-4">Join us as we work towards a brighter, energy-secure future for Nigeria and beyond.</p>
         </div>
 
     </div>
