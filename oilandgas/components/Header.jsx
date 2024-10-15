@@ -27,8 +27,8 @@ function Header() {
   }, [setScrolling]);
   return (
     <>
-    <nav className={`${scrolling ? 'bg-[#091829] shadow-sm duration-150  ease-in-out  ': 'bg-transparent'} sticky top-0 -mx-5 md:-mx-10  z-40 text-white px-10 py-2 h-20`}>
-        <div className='md:block hidden'>
+    <nav className={`${scrolling ? 'bg-[#091829] shadow-sm duration-150  ease-in-out  ': 'bg-transparent'} sticky top-0 -mx-5 md:-mx-10  z-40 text-white px-10 py-2 h-24`}>
+        <div className='md:block hidden mb:pb-10'>
           <div className='flex items-center justify-between'>
           <Link href={'/'}>
                 <Image src={Logo} alt='Company Logo' width={80} height={80}/>
