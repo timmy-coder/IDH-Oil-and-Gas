@@ -11,7 +11,7 @@ function DirectorSection() {
             
         </div>
         <div  className='bg-[#44749F] text-white py-10 px-5 rounded-md text-lg w-[350px] lg:w-[600px] h-[380px] lg:text-[23px]'>
-        Welcome to POBG, a dynamic and innovative oil and gas company based in Lagos, Nigeria. We are committed to driving energy solutions that meet the growing demands of both the local and international markets. Our core operations span exploration, production, refining, and distribution of petroleum products, ensuring the highest standards of safety, sustainability, and efficiency.
+        Welcome to POGOD, a dynamic and innovative oil and gas company based in Lagos, Nigeria. We are committed to driving energy solutions that meet the growing demands of both the local and international markets. Our core operations span exploration, production, refining, and distribution of petroleum products, ensuring the highest standards of safety, sustainability, and efficiency.
         </div>
 
     </div>

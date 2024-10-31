@@ -44,7 +44,7 @@ function ServiceTabs() {
                     </div>
                 </div>
             </div>
-            <Link href={'#'}>
+            <Link href={'/services'}>
                 <div className='flex items-center justify-center md:items-end md:justify-end md:mr-20'>
                 <div className='bg-[#F40F0F] p-2  rounded-md flex items-center gap-2'>
                     <p className='text-white'>See All Services</p>

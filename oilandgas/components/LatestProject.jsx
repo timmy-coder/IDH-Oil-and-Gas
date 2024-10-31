@@ -30,7 +30,7 @@ function LatestProject() {
         </div>
 
         <ProjectsTabs image={LatestImage}/>
-        <Link href={'#'}>
+        <Link href={'/projects'}>
             <div className='flex items-center justify-center md:items-end md:justify-end md:mr-20'>
             <div className='bg-[#F40F0F] p-2  rounded-md flex items-center gap-2'>
                 <p className='text-white'>View All Projects</p>

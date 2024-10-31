@@ -18,7 +18,7 @@ function AboutOverview() {
             
         </div>
         <div  className='bg-[#44749F] text-white py-5 px-5 rounded-md text-lg w-[350px] lg:w-[600px]  lg:text-[23px]'>
-            <p> At POBG, we leverage cutting-edge technology and industry expertise to deliver energy solutions that power businesses, industries, and households. Our strategic location in Lagos positions us at the heart of Nigeria&apos;s oil and gas industry, allowing us to serve a diverse range of clients while contributing to the nation&apos;s economic development.</p>
+            <p> At POGOD, we leverage cutting-edge technology and industry expertise to deliver energy solutions that power businesses, industries, and households. Our strategic location in Lagos positions us at the heart of Nigeria&apos;s oil and gas industry, allowing us to serve a diverse range of clients while contributing to the nation&apos;s economic development.</p>
 
             <p className="mt-2">Our vision is to lead the transformation of Nigeria&apos;s energy sector by fostering innovation, supporting sustainable practices, and creating value for our stakeholders. We prioritize community development, environmental responsibility, and customer satisfaction in all our operations.</p>
 
